@@ -9,7 +9,7 @@ const CounterR = () => {
     <div className='bg-zinc-200'>
     <div className='flex items-center justify-around h-[40vh]'>
         <div>
-            <span className='text-5xl font-bold text-zinc-600'>Counter using Hooks: </span>
+            <span className='text-5xl font-bold text-zinc-600'>Counter using Redux: </span>
         </div>
         <div className='flex  items-center justify-around rounded-xl w-44 text-3xl font-bold border-2 border-zinc-600 bg-zinc-600 '>
             

@@ -91,12 +91,9 @@ const CounterH = () => {
                     <span >Counter using Hooks: </span>
                 </div>
                 <div >
-                    
-                        <button  onClick={Increment}>+</button>
-                    
-                        <div >{count}</div>
-                    
-                        <button onClick={Decrement}>-</button>
+                    <button  onClick={Increment}>+</button>
+                    <div >{count}</div>
+                    <button onClick={Decrement}>-</button>
                 </div>
             </div>
         </div>
@@ -122,12 +119,12 @@ const CounterR = () => {
     <div >
     <div >
         <div>
-            <span >Counter using Hooks: </span>
+            <span >Counter using Redux: </span>
         </div>
         <div >
-                <button onClick={()=>dispatch(IncNum())} >+</button>
-                <div >{myState}</div>
-                <button  onClick={()=>dispatch(DecNum())} >-</button>
+            <button onClick={()=>dispatch(IncNum())} >+</button>
+            <div >{myState}</div>
+            <button  onClick={()=>dispatch(DecNum())} >-</button>
         </div>
     </div>
 </div>
